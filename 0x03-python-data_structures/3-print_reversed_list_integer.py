@@ -1,4 +1,7 @@
 #!/usr/bin/python3
 def print_reversed_list_integer(my_list=[]):
-	for num in list(reversed(my_list):
-		print('{:d}'.format(num), end='')
+    if my_list is None:
+        return
+    my_list.reverse()
+    for i in my_list:
+        print("{:d}".format(i))
