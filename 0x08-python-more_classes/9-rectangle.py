@@ -81,4 +81,3 @@ class Rectangle:
     def square(cls, size=0):
         """ defining square """
         return Rectangle(size, size)
-
