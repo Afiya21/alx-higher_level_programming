@@ -111,4 +111,3 @@ class Base:
                 return [cls.create(**item) for item in ld]
         except FileNotFoundError:
             return []
-
