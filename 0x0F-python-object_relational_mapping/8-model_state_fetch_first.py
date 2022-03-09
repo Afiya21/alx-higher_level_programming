@@ -1,5 +1,4 @@
-   
-#!/usr/bin/python3
+   #!/usr/bin/python3
 """
 list the first State object from a database
 """
