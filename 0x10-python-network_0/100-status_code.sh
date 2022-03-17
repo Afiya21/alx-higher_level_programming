@@ -1,3 +1,3 @@
 #!/bin/bash
-#get statue code from http header  work just task(curl -sI "$1" | grep "HTTP/" |  cut -d " " -f 2)
-curl -so /dev/null --write-out "%{http_code}" "$1
+# script that sends a request to a URL passed as an argument
+curl -o /dev/null -sw "%{http_code}" "$1"
